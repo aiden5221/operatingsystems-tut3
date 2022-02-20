@@ -118,6 +118,9 @@ void printScores(){
     printf("%d",Score4);
     printf("\n\n");
     
+    printf("Thanks for playing!");
+    return 0;
+    
 }
     
 void CreateBoard(){
@@ -243,7 +246,8 @@ void Ques(int x, int y){
         }    
         
         //Display question and recieve answer
-        printf("What does 10 x 20 equal: \n");
+        printf("What does 10 x 20 equal? \n");
+        printf("What is:");
         scanf("%s", ans);
         
         
@@ -288,7 +292,8 @@ void Ques(int x, int y){
             CreateBoard();
         }    
         
-        printf("What does 20 x 20 equal: \n");
+        printf("What does 20 x 20 equal? \n");
+        printf("What is:");
         scanf("%s", ans);
     
         
@@ -329,7 +334,8 @@ void Ques(int x, int y){
             CreateBoard();
         }
         
-        printf("What does 20 x 40 equal: \n");
+        printf("What does 20 x 40 equal?\n");
+        printf("What is:");
         scanf("%s", ans);
         
         if ((strcmp(ans, "800") == 0)){
@@ -371,7 +377,8 @@ void Ques(int x, int y){
             CreateBoard();
         }   
         
-        printf("What is a common name for H20: \n");
+        printf("What is a common name for H20?\n");
+        printf("What is:");
         scanf("%s", ans);
         
         
@@ -414,7 +421,8 @@ void Ques(int x, int y){
         } 
         
         
-        printf("What is the 8th element in the periodic table: \n");
+        printf("What is the 8th element in the periodic table?\n");
+        printf("What is:");
         scanf("%s", ans);
            
         
@@ -455,7 +463,8 @@ void Ques(int x, int y){
             CreateBoard();
         }  
         
-        printf("What is the largest planet in the solar system: \n");
+        printf("What is the largest planet in the solar system?\n");
+        printf("What is:");
         scanf("%s", ans);
           
         
@@ -498,7 +507,8 @@ void Ques(int x, int y){
         }   
         
         
-        printf("What is the largest country: \n");
+        printf("What is the largest country?\n");
+        printf("What is:");
         scanf("%s", ans);
          
         
@@ -540,7 +550,8 @@ void Ques(int x, int y){
             CreateBoard();
         }    
         
-        printf("How many states does America have: \n");
+        printf("How many states does America have?\n");
+        printf("What is:");
         scanf("%s", ans);
         
         
@@ -581,7 +592,8 @@ void Ques(int x, int y){
             CreateBoard();
         }   
         
-        printf("What is the most populated country in the world: \n");
+        printf("What is the most populated country in the world?\n");
+        printf("What is:");
         scanf("%s", ans);
          
         
